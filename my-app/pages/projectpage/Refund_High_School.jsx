@@ -11,7 +11,7 @@ function ProjectPage () {
   return (
     <body>
         <NavigationBar/>
-        <div className='px-[5rem] py-[5rem]'> 
+        <div className='px-[5rem] py-[6rem]'> 
 
           
           <h2>Refund High School</h2>
