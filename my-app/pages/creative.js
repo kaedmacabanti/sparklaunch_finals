@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer/footer';
 import { NavigationBar } from '../components/Navbar/Navigationbar';
 
+
 function Creative() {
   return (
     <>
@@ -16,6 +17,9 @@ function Creative() {
         >
         <h1>Creative</h1>
         </div>
+
+
+        
         <Footer />
     </>
   );
