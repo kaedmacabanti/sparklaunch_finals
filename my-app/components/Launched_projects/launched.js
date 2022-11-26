@@ -11,7 +11,7 @@ import Link from 'next/link';
 function CardItem(props) {
   return (
     <>
-        <li className="cards__item z-10">
+        <li className="cards__item z-10  shadow-md shadow-blue-500/40 overflow-hidden">
                 <Link classname="cards__item__link " href={props.path} style={{ textDecoration: 'none'}}>
                 <figure className="cards__item__pic-wrap object-cover" data-category={props.label}>
                     <Image src={props.src} alt="" height="500" width="700" className='object-cover'/>
@@ -26,7 +26,6 @@ function CardItem(props) {
     </>
   )
 }
-
 
 
 function Launched() {

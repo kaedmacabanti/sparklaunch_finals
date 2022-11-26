@@ -75,14 +75,9 @@ const PopNew= () => {
       <div className=' bg-homebackground h-full  '>
   
           <div className=''>
-            <div className='grid gap-y-[2rem]  mb-[8.1rem]'>
-            <Link href="/projectpage">
+            <div className='grid gap-y-[2rem]  mb-[8.1rem]'>      
               <MovieRow rowID="1" title="Popular Projects" fetchURL={request.requestPopular} />
-            </Link>
-
-            <Link href="/projectpage">
               <MovieRow rowID="2" title="New Projects" fetchURL={request.requestNew} />
-            </Link>
             </div>
           </div>
       </div>

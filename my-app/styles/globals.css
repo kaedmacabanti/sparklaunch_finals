@@ -355,3 +355,10 @@ Image{
 .abstract{
   margin-top: 30px;
 }
+
+
+/* =========================== */
+
+.card1{
+  display:inline-block;
+}
